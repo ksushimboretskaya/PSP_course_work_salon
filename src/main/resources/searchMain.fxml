@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ffcfcf;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.SearchMainController">
+    <children>
+        <Button fx:id="b1" alignment="CENTER" contentDisplay="TOP" layoutX="10.0" layoutY="25.0" onAction="#changeColor" prefHeight="70.0" prefWidth="200.0" style="-fx-background-color: #f1f1f1;" text="Найти услугу" textAlignment="CENTER">
+            <graphic>
+                <!--                <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">-->
+                <!--                    <image>-->
+                <!--                        <Image url="@../Icons/search.png" />-->
+                <!--                    </image>-->
+                <!--                </ImageView>-->
+            </graphic>
+         <font>
+            <Font name="Complex_IV50" size="12.0" />
+         </font>
+        </Button>
+        <Button fx:id="b2" alignment="CENTER" contentDisplay="TOP" layoutX="10.0" layoutY="132.0" onAction="#changeColor" prefHeight="70.0" prefWidth="200.0" style="-fx-background-color: #f1f1f1;" text="Удалить учетную запись" textAlignment="CENTER" wrapText="true">
+            <graphic>
+                <!--                <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">-->
+                <!--                    <image>-->
+                <!--                        <Image url="@../Icons/delete.png" />-->
+                <!--                    </image>-->
+                <!--                </ImageView>-->
+            </graphic>
+            <font>
+                <Font name="Complex_IV50" size="12.0" />
+            </font>
+        </Button>
+        <Button fx:id="exit" alignment="CENTER" contentDisplay="TOP" layoutX="10.0" layoutY="247.0" onAction="#exit" prefHeight="70.0" prefWidth="200.0" style="-fx-background-color: #f1f1f1;" text="Выход" textAlignment="CENTER">
+            <graphic>
+                <!--                <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">-->
+                <!--                    <image>-->
+                <!--                        <Image url="@../Icons/exit.png" />-->
+                <!--                    </image>-->
+                <!--                </ImageView>-->
+            </graphic>
+            <font>
+                <Font name="Complex_IV50" size="12.0" />
+            </font>
+        </Button>
+        <TableView fx:id="servicesTableView" editable="true" layoutX="255.0" layoutY="26.0" prefHeight="211.0" prefWidth="318.0" tableMenuButtonVisible="true">
+            <columns>
+                <TableColumn fx:id="serviceNameCol" prefWidth="154.0" text="Название услуги" />
+                <TableColumn fx:id="serviceCostCol" prefWidth="136.20001220703125" text="Стоимость" />
+            </columns>
+        </TableView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="373.0" layoutY="242.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@beautysalon-beauty.gif" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

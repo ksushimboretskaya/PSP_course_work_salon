@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="764.0" style="-fx-background-color: #ffcfcf;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.UserListController">
+    <children>
+        <TableView fx:id="usersList" layoutX="13.0" layoutY="74.0" prefHeight="236.0" prefWidth="519.0" tableMenuButtonVisible="true">
+            <columns>
+                <TableColumn fx:id="firstNameCol" prefWidth="101.0" text="Имя" />
+                <TableColumn fx:id="lastNameCol" minWidth="0.0" prefWidth="125.0" text="Фамилия" />
+                <TableColumn fx:id="emailCol" prefWidth="159.0" text="E-Mail" />
+                <TableColumn fx:id="passwordCol" prefWidth="116.0" text="Пароль" />
+            </columns>
+        </TableView>
+      <Label layoutX="188.0" prefHeight="66.0" prefWidth="408.0" text="Список зарегистрированных пользователей" textAlignment="CENTER" textFill="#da1283" underline="true" wrapText="true">
+         <font>
+            <Font name="Simplex_IV50" size="18.0" />
+         </font>
+      </Label>
+        <Button layoutX="227.0" layoutY="334.0" mnemonicParsing="false" onAction="#setSelectedData" prefHeight="39.0" prefWidth="92.0" style="-fx-background-color: #ff9999;" text="Выбрать" textFill="WHITE">
+            <font>
+                <Font name="Segoe Print" size="12.0" />
+            </font></Button>
+      <TextField fx:id ="updateFirstName" layoutX="595.0" layoutY="103.0" />
+      <TextField  fx:id ="updateLastName" layoutX="596.0" layoutY="166.0" />
+      <TextField  fx:id ="updateEmail" layoutX="596.0" layoutY="221.0" />
+      <TextField  fx:id ="updatePassword" layoutX="596.0" layoutY="284.0" />
+      <Label layoutX="650.0" layoutY="74.0" text="Имя">
+          <font>
+              <Font name="Simplex_IV50" size="15.0" />
+          </font>
+      </Label>
+      <Label layoutX="639.0" layoutY="200.0" prefHeight="19.0" prefWidth="61.0" text="E-mail">
+          <font>
+              <Font name="Simplex_IV50" size="15.0" />
+          </font>
+      </Label>
+      <Label layoutX="633.0" layoutY="138.0" text="Фамилия"> <font>
+          <Font name="Simplex_IV50" size="15.0" />
+      </font></Label>
+      <Label layoutX="639.0" layoutY="256.0" text="Пароль"> <font>
+          <Font name="Simplex_IV50" size="15.0" />
+      </font></Label>
+      <Button layoutX="620.0" layoutY="334.0" mnemonicParsing="false" onAction="#updateUser" prefHeight="39.0" prefWidth="92.0" style="-fx-background-color: #ff9999;" text="Обновить" textFill="WHITE">
+         <font>
+            <Font name="Segoe Print" size="12.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>
