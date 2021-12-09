@@ -1,1 +1,13 @@
 # PSP_course_work_salon
+![welcome page](https://user-images.githubusercontent.com/77389589/145357617-e9e5b482-a4cd-4982-9642-dd7c248cd3ae.png)
+![authorization page](https://user-images.githubusercontent.com/77389589/145357632-e7323a71-dc9c-4ca7-a8a4-45819e6c458e.jpg)
+![registration page](https://user-images.githubusercontent.com/77389589/145357639-0488d9c6-e1b3-4a4b-9e0e-d0e615e1341a.jpg)
+![admin panel](https://user-images.githubusercontent.com/77389589/145357648-01003ef6-5abb-4e63-abe7-1404123c2dc4.jpg)
+![users list](https://user-images.githubusercontent.com/77389589/145357660-bf00de24-7e80-480c-aacc-976c203fe2c4.jpg)
+![insers page](https://user-images.githubusercontent.com/77389589/145357673-c1e635e2-0699-457a-ae05-5cf96807ee83.jpg)
+![server control page](https://user-images.githubusercontent.com/77389589/145357686-599d730c-59b6-4ce1-839e-1cf079220648.jpg)
+![users panel](https://user-images.githubusercontent.com/77389589/145357701-2b674cb4-61dd-470b-8da5-e9a897743d48.jpg)
+![make record page](https://user-images.githubusercontent.com/77389589/145357711-b969fb80-bba1-4585-b289-3bf60177eb88.jpg)
+![additional services](https://user-images.githubusercontent.com/77389589/145357727-5dd1afc8-0111-439b-ab3b-ea042f9ad070.jpg)
+![search](https://user-images.githubusercontent.com/77389589/145357735-004e1950-6829-42aa-a0d0-b971710bfe7d.jpg)
+![search result](https://user-images.githubusercontent.com/77389589/145357743-f87e6785-7eb8-4f4b-813a-3ac2f6003c1e.jpg)
